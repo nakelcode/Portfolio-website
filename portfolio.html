@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>portfolio</title>
+        <meta name="author" content="olamilekan">
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Platypi:ital,wght@0,300..800;1,300..800&family=Tilt+Neon&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header> 
+            <nav class="navbar">
+              <div class="container"> 
+                <div class="log">
+                 <a href="#" class="logo">OLAMILEKAN.</a>
+                </div> 
+                  <div class="menu-toggle" id="mobile-menu">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                  </div>
+                  <ul class="nav-list" id="nav-list">
+                      <li><a href="#">HOME</a></li>
+                      <li><a href="#about">ABOUT</a></li>
+                      <li><a href="#skills">SKILLS</a></li>
+                      <li><a href="#project">PROJECTS</a> </li>
+                      <li><a href="#contact">CONTACT</a></li> 
+                  </ul>
+              </div>
+          </nav>
+         </header> <br> <br> <br> <br> <br> <br>
+
+         <div class="flex">
+            <div>
+                <h4>OLAMILEKAN OWOLEMI</h4>
+                <p>I'm an highly skilled web developer. Our goal is to <br>
+                    satisfy our clients by web development solutions
+                </p>
+            </div>
+            <div>
+                <img src="https://i.imgur.com/YgPxFct.png" alt="olamlekan picture"> <br>
+            </div>
+         </div>
+
+         <a href="#" class="cont">Contact</a>
+
+
+
+
+         <script>
+            const menuToggle = document.getElementById('mobile-menu');
+            const navList = document.getElementById('nav-list');
+            
+            menuToggle.addEventListener('click', () => {
+                navList.classList.toggle('active');
+            });
+            </script>
+    </body>
+</html>
